@@ -1,0 +1,39 @@
+# Local secrets and authentication artifacts
+.env
+.env.*
+!.env.example
+**/storage_state.json
+**/master_token.json
+**/credentials.json
+**/token.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+**/.notebooklm/
+**/.config/gcloud/
+**/.ssh/
+**/browser_profile/
+**/profiles/default/
+
+# Private data and outputs
+private/
+data-private/
+outputs-private/
+research-private/
+*.log
+*.sqlite
+*.db
+
+# Python and OS
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Editor files
+.idea/
+.vscode/
