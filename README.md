@@ -137,3 +137,12 @@ To archive GitHub's 14-day rolling views and clone metrics as daily aggregate hi
 ## Licensing
 
 No open-source license has been chosen yet. Until a license is added by the repository owner, public visibility alone does not grant broad redistribution rights.
+
+## Reusable instruction profiles
+
+The following **generic, non-personal** instruction profiles can be copied into an assistant's custom instructions or adapted for an agent harness:
+
+- [Evidence & rigor (up to 1,500 characters)](prompts/evidence-rigor-1500.txt)
+- [Evidence & rigor (up to 5,000 characters)](prompts/evidence-rigor-5000.txt)
+
+The limits describe **character counts, not tokens**, and apply to the text file contents (including line breaks). These are operational prompts, not empirical guarantees of accuracy or formal proof. They contain no account details, identity-specific settings, or credentials. Check your product's current input limits before pasting.
