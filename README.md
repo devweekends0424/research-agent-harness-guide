@@ -130,6 +130,10 @@ The tests use mocks: **they do not prove** real authentication, API compatibilit
 
 Before executing commands, check the installed version's `--help` output and the current provider documentation. Service limits, permissions, and capabilities can change.
 
+## Optional long-term traffic history
+
+To archive GitHub's 14-day rolling views and clone metrics as daily aggregate history, see [Traffic archive setup](docs/TRAFFIC.md). The workflow requires a separately configured, repository-restricted secret and does nothing without it. No visitor identities or authentication credentials are committed.
+
 ## Licensing
 
 No open-source license has been chosen yet. Until a license is added by the repository owner, public visibility alone does not grant broad redistribution rights.
